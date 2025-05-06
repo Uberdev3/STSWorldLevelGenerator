@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca7dc21f6a89cb42a00208270194fb0, type: 3}
+  m_Name: RegularPath
+  m_EditorClassIdentifier: 
+  name: Regular
+  pathDirectness: 0.5
+  pathDifficulty: 1
+  nodeLogic:
+  - relevantNode: {fileID: 11400000, guid: fcaf3d8d22b906142804fdc17faf32c2, type: 2}
+    nodesInFront: []
+    spawnMultiplier: 1
+  - relevantNode: {fileID: 11400000, guid: bcc313ae0f14ca94ba4fdc372cf1a96e, type: 2}
+    nodesInFront: []
+    spawnMultiplier: 0.2
+  - relevantNode: {fileID: 11400000, guid: 93bf74db8a1913e40aaca17f52a10b5e, type: 2}
+    nodesInFront: []
+    spawnMultiplier: 1
+  maxAmountInWorld: 1
+  spawnProbability: 2
+  pathSmoothness: 1

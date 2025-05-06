@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d309666bdca44d4bb102430aa1caca3, type: 3}
+  m_Name: BossNode
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 6245e6c0e1c6fd24687c376eb1c9bbf5, type: 3}
+  difficulty: 1.5
+  treasure: 1
+  bossSpawnChance: 0.8
+  relativeBossStatistics:
+  - boss: {fileID: 2223716039617489181, guid: 6823246a289cbd04298e0613f44d28ec, type: 3}
+    baseSpawnProbability: 1
+    difficultyMultiplier: 1
+  - boss: {fileID: 1416997888403918845, guid: 337ada489ba221e408a5f919473eea85, type: 3}
+    baseSpawnProbability: 1
+    difficultyMultiplier: 1
+  - boss: {fileID: 362109809798248259, guid: 4939ae420e825174aa1aeee526f0b733, type: 3}
+    baseSpawnProbability: 1
+    difficultyMultiplier: 1
